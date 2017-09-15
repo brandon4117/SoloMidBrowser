@@ -83,7 +83,7 @@ img {
 border-radius: 5px;
 box-shadow: 0 1px 3px #9c9c9c;}
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
   
   body {padding-top: 300px;}
   
