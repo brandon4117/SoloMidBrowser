@@ -87,6 +87,11 @@ box-shadow: 0 1px 3px #9c9c9c;
 width: 100%;
 height: 100%;}
 
+.eyeCatch {margin: 0;
+padding: 50px;
+text-align: center;
+color: #5d5d5d;}
+
 @media screen and (max-width: 600px) {
   
   body {padding-top: 300px;}
