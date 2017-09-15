@@ -86,7 +86,7 @@ color: #5d5d5d;}
 }
 
 .image {display: flex;
-width: 500px;}
-
-img {
+width: 500px;
 margin: 0 auto;}
+
+img {}
