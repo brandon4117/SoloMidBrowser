@@ -42,6 +42,7 @@ transition: all 100ms ease;
 
 #download {background-color: #81a6d9;
 color: white;
+height: 19px;
 }
 
 .content {margin: auto;
