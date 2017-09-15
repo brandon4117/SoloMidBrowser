@@ -85,7 +85,8 @@ color: #5d5d5d;}
   
 }
 
-.image {display: flex;}
+.image {display: flex;
+width: 100px;}
 
 img {
 margin: 0 auto;}
