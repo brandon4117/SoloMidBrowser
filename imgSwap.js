@@ -1,4 +1,4 @@
-var bImages = ['GameLibrary.png', 'lolView.png'];
+var bImages = ['mainPage.png', 'GameLibrary.png', 'lolView.png'];
 
  var imageSwap = (function() {
    var i = 0;
