@@ -1,4 +1,4 @@
-var bImages = ['WebsiteView.png', 'https://digital-vitality.github.io/solomidbrowser/AppScrSht.png'];
+var bImages = ['AppScrSht.png', 'WebsiteView.png'];
 
  var imageSwap = (function() {
    var i = 0;
