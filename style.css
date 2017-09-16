@@ -166,13 +166,13 @@ top: 200px;
   .sShowLeft {height: auto;
   right: 5px;
   top: 0;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;}
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;}
   
     .sShowRight {height: auto;
   left: 5px;
   top: 0;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;}
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;}
   
 }
