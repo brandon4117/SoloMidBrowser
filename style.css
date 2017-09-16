@@ -78,7 +78,7 @@ width: 100%;
 color: #5d5d5d;}
 
 .image {display: flex;
-width: 500px;
+width: 600px;
 margin: 0 auto;}
 
 img {
@@ -102,7 +102,7 @@ font-weight: bold;
 box-shadow: 0 0 3px #5d5d5d;
 position: relative;
 right: 25px;
-top: 150px;
+top: 200px;
 }
 
 .sShowRight {color: #5d5d5d;
@@ -115,7 +115,7 @@ font-weight: bold;
 box-shadow: 0 0 3px #5d5d5d;
 position: relative;
 left: 25px;
-top: 150px;
+top: 200px;
 }
 
 .sShowLeft:active, .sShowRight:active {color: #81a6d9;
