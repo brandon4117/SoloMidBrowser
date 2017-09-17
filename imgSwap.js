@@ -1,11 +1,11 @@
 var bImages = ['mainPage.png', 'GameLibrary.png', 'lolView.png'];
 
- var imageSwap = (function() {
-   var i = 0;
-   return function() {
-     var rv = bImages[i];
-     i = (i + 1) % bImages.length;
-     document.getElementById('imgSwap').src=bImages[i];
-     return rv;
-   };
- })();
+var cycle_Imgs = function()
+{
+  var mImg = document.getElementById('imgSwap');
+  var next_img = bImages.shift();
+  mImg.src = next_img;
+  bImages.push(next_img);
+  return;
+}
+var img_cycling = setInterval(cycle_Imgs, 5000);
