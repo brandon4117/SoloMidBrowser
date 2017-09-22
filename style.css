@@ -90,7 +90,40 @@ height: 100%;}
 .eyeCatch {margin: 0;
 padding: 50px;
 text-align: center;
-color: #7d7d7d;}
+color: #7d7d7d;
+padding-bottom: 0;}
+
+h2 {padding: 0;
+height: auto;}
+
+#frontPageTitle {padding-bottom: 50px;}
+
+.Description {color: #5d5d5d;
+margin: 0 auto;
+width: 500px;
+padding: 20px;}
+
+.titleList {
+text-align: left;
+padding-bottom: 20px;
+margin: 0;}
+
+.centerList {
+text-align: left;
+margin: 0 auto;
+width: 500px;
+list-style-type: square;
+color: #5d5d5d;
+border-left-style: solid;
+border-top-style: solid;
+border-width: 1px;
+border-color: #9c9c9c;
+padding: 20px;
+}
+
+.centerList > li {margin-left: 30px;}
+
+.Description {margin: 0 auto;}
 
 @media screen and (max-width: 600px) {
   
@@ -105,6 +138,12 @@ color: #7d7d7d;}
   display: block;
   height: auto;
   border-style: none;}
+  
+    .centerList {position: relative; width: 400px;
+  margin: 0 auto;}
+  
+  .Description {position: relative; width: auto;
+  margin: 0 auto;}
   
 }
 
@@ -121,5 +160,14 @@ color: #7d7d7d;}
   display: block;
   height: auto;
   border-style: none;}
+  
+  
+  .centerList {position: relative; width: 200px;
+  margin: 0 auto;}
+  
+  .Description {position: relative; width: auto;
+  margin: 0 auto;}
+  
+  }
   
 }
