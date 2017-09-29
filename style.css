@@ -126,6 +126,34 @@ padding: 20px;
 
 .Description {margin: 0 auto;}
 
+#HomeFadeIn, #HomeImgFadeIn, #HomeFadeIn2 {
+opacity: 0; 
+animation: fadein 750ms ease; 
+animation-fill-mode: forwards;
+}
+
+#HomeImgFadeIn {
+animation-delay: 250ms;
+}
+
+#HomeFadeIn2 {
+animation-delay: 500ms;
+}
+
+@keyframes fadein { /* Safari and Chrome */ 
+    from {
+        opacity:0;
+        transform: translateY(-50px);
+
+    }
+    to {
+        opacity:1;
+        transform: translateY(0px);
+    }
+}
+
+/* THE @MEDIA QUERIES - NOTHING NEW PAST THIS POINT FOR ELEMENTS. */
+
 @media screen and (max-width: 600px) {
   
   body {padding-top: 250px;}
