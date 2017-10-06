@@ -21,7 +21,7 @@ position: fixed;
 width: 100%;
 height: 69px;
 z-index: 10;
-background: #ffffff url('tsmbrowserlogo.png') no-repeat right 10px center;
+
 background-size: 60px 60px;}
 
 .navItems {text-align: center;
@@ -186,6 +186,17 @@ border-width: 1px;
 	100% {transform: translate(0px, 0px);}
 }
 
+#headerImg {background: transparent url('HeaderImage.png') no-repeat right center;
+right: 0;
+margin-right: -15px;
+position: absolute;
+display: block;
+z-index: -1;
+width: 200px;
+height: 60px;
+margin-top: 5px;
+background-size: 200px 60px;}
+
 /* THE @MEDIA QUERIES - NOTHING NEW PAST THIS POINT FOR ELEMENTS. */
 
 @media screen and (max-width: 600px) {
@@ -202,8 +213,9 @@ border-width: 1px;
   margin-top: -250px;
   display: block;
   height: auto;
-  border-style: none;
-  background-image: none;}
+  border-style: none;}
+  
+  #headerImg {background-image: none;}
   
     .centerList {position: relative; width: 400px;
   margin: 0 auto;}
@@ -225,8 +237,9 @@ border-width: 1px;
   margin-top: -250px;
   display: block;
   height: auto;
-  border-style: none;
-  background-image: none;}
+  border-style: none;}
+  
+#headerImg {background-image: none;}
   
   
   .centerList {position: relative; width: 200px;
