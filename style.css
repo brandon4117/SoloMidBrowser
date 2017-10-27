@@ -224,11 +224,13 @@ background-size: 200px 60px;}
   
   #twitterLink:visited {color: #9c9c9c;}
   
-    .centerList {position: relative; width: 400px;
+    .centerList {position: relative; width: 75%;
   margin: 0 auto;}
   
   .Description {position: relative; width: auto;
   margin: 0 auto;}
+  
+  .centerList > li  {margin-left: 0;}
   
 }
 
@@ -249,8 +251,10 @@ background-size: 200px 60px;}
 #headerImg {background-image: none;}
   
   
-  .centerList {position: relative; width: 200px;
+  .centerList {position: relative; width: 75%;
   margin: 0 auto;}
+  
+  .centerList > li  {margin-left: 0;}
   
   .Description {position: relative; width: auto;
   margin: 0 auto;}
