@@ -100,10 +100,12 @@ height: auto;}
 
 #frontPageTitle {padding-bottom: 50px;}
 
-.Description {color: #5d5d5d;
+.Description, .DescriptionDL {color: #5d5d5d;
 margin: 0 auto;
 width: 500px;
 padding: 20px;}
+
+.DescriptionDL {padding: 0;}
 
 .titleList {
 text-align: left;
@@ -199,9 +201,83 @@ background-size: 200px 60px;}
 
 #twitterLink {color: #9c9c9c;}
 
+form {text-align: center;
+color: #5d5d5d;
+width: 315px;
+margin: 10px auto;}
+
+label {margin-bottom: 5px;
+float: left;}
+
+input[type='text'] {border-radius: 0px;
+border: solid 1px #9c9c9c;
+padding: 5px 0 5px 0;
+width: 100%;
+text-indent: 5px;
+font-family: 'Lato', arial;}
+
+input[type='text']:focus {border-color: #81a6d9;
+color: #467cc7;}
+
+input[type='submit'] {background-color: #81a6d9;
+border: none;
+width: 100px;
+padding: 10px;
+color: white;
+text-transform: uppercase;
+margin-top: 20px;
+font-family: 'Lato', arial;
+box-shadow: 0px 3px 0px #5d5d5d;}
+
+input[type='submit']:active {margin-top: 23px;
+  box-shadow: none;}
+
+textarea {
+font-family: 'Lato', arial;
+border-radius: 0px;
+border: solid 1px #9c9c9c;
+min-height: 100px;
+height: 100px;
+width: 100%;
+resize: vertical;
+font-size: 14px;}
+
+textarea:focus {border-color: #81a6d9;
+color: #467cc7;}
+
+#dlButton {text-decoration: none;
+color: white;
+display: block;
+background-color: #81a6d9;
+text-align: center;
+width: 263px;
+padding: 20px;
+font-size: 20px;
+margin: 40px auto;
+}
+
+#dlColor {margin-left: 10px;
+display: inline;
+background-color: #c0d2ec;
+color: #ffffff;
+padding: 5px 23px 5px 23px;
+border-radius: 50px;
+font-size: 16px;
+font-weight: bold;}
+
+#dlButton:hover {background-color: #6784ad;}
+
+#dlButton:hover >#dlColor {background-color: #a6c0e4;}
+
+#dlButton:active {background-color: #4d6382;}
+
+#dlButton:active >#dlColor {background-color: #9ab7e0;}
+
 /* THE @MEDIA QUERIES - NOTHING NEW PAST THIS POINT FOR ELEMENTS. */
 
 @media screen and (max-width: 600px) {
+	
+	form {width: 90%;}
   
   body {padding-top: 250px;}
   
@@ -227,7 +303,7 @@ background-size: 200px 60px;}
     .centerList {position: relative; width: 75%;
   margin: 0 auto;}
   
-  .Description {position: relative; width: auto;
+  .Description, .DescriptionDL {position: relative; width: auto;
   margin: 0 auto;}
   
   .centerList > li  {margin-left: 0;}
@@ -256,7 +332,7 @@ background-size: 200px 60px;}
   
   .centerList > li  {margin-left: 0;}
   
-  .Description {position: relative; width: auto;
+  .Description, .DescriptionDL {position: relative; width: auto;
   margin: 0 auto;}
   
   }
