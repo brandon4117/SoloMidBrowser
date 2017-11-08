@@ -250,7 +250,7 @@ color: white;
 display: block;
 background-color: #81a6d9;
 text-align: center;
-width: 263px;
+width: 270px;
 padding: 20px;
 font-size: 20px;
 margin: 40px auto;
@@ -262,8 +262,7 @@ background-color: #c0d2ec;
 color: #ffffff;
 padding: 5px 23px 5px 23px;
 border-radius: 50px;
-font-size: 16px;
-font-weight: bold;}
+font-size: 16px;}
 
 #dlButton:hover {background-color: #6784ad;}
 
