@@ -1,4 +1,4 @@
-var bImages = ['mainPage.png', 'GameLibrary.png', 'lolView.png', 'bioPage.png', 'streamPage.png'];
+var bImages = ['img/mainPage.png', 'img/GameLibrary.png', 'img/lolView.png', 'img/bioPage.png', 'img/streamPage.png'];
 
 var cycle_Imgs = function()
 {
