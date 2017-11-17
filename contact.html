@@ -8,7 +8,6 @@
  <link rel="icon" 
       type="image/png" 
       href="favicon.ico" />
- <script src="imgSwap.js"></script>
 </head>
 <body>
   <main>
@@ -25,15 +24,12 @@
     </nav>
   <div><h2 class="eyeCatch">Got feedback? Send it back.</h2>
     <p class="Description">Every detail counts. Give me all the knowledge I need to make this website and Team SoloMid browser the best it can be. Thank you!</p>
-    <form id='feedbackForm'>
-      <label for='name'>Name: </label>
-      <input type='text' id='formName' name='name' placeholder='Enter your name...'></input><br><br>
-      <label for='email'>Email: </label>
-      <input type='text' id='formEmail' name='email' placeholder='Enter your email...'></input><br><br>
-    <label for='feedback'>Feedback: </label>
-    <textarea id="formSubject" name="feedback" placeholder="Give us feedback! Please write every detail..."></textarea>
-    <input type="submit" value="Submit">
-    </form>
+<form method="POST" action="http://formspree.io/bdloehlein@gmail.com">
+  <input name="name" placeholder="Enter your name..." type="name">
+  <input name="email" placeholder="Enter your email..." type="email">
+  <textarea name="feedback" placeholder="Give me feedback! Please write every detail..."></textarea>
+  <button type="submit">Submit</button>
+</form>
   </div>
 <footer><small>&copy; 2017 Digital Vitality. All rights reserved.</small></footer>
   </main>
