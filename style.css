@@ -308,6 +308,15 @@ font-size: 16px;}
   
   .centerList > li  {margin-left: 0;}
   
+  #dlButton {width: 230px;
+  padding: 20px 20px 2px 20px;}
+  
+  #dlColor {display: block;
+  padding: 10px;
+  margin-left: 0;}
+  
+  .DescriptionDL {width: 80%;}
+  
 }
 
 @media screen and (max-width: 500px) {
@@ -332,8 +341,17 @@ font-size: 16px;}
   
   .centerList > li  {margin-left: 0;}
   
-  .Description, .DescriptionDL {position: relative; width: auto;
+  .Description {position: relative; width: auto;
   margin: 0 auto;}
+  
+  #dlButton {width: 230px;
+  padding: 20px 20px 2px 20px;}
+  
+  #dlColor {display: block;
+  padding: 10px;
+  margin-left: 0;}
+  
+  .DescriptionDL {width: 80%;}
   
   }
   
