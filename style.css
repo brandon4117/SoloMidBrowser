@@ -308,6 +308,26 @@ textarea:focus {
 #dlButton:active >#dlColor {
     background-color: #9ab7e0;
 }
+
+
+#divTest {display: flex; width: 800px;
+margin: 0 auto;}
+
+.openLink {
+text-align: center;
+width: 200px;
+margin: 0 auto;
+color: white;
+background-color: #81a6d9;
+padding: 20px;
+text-decoration: none;
+margin-top: 40px;
+float: left;
+transition: all 100ms linear;}
+
+.openLink:hover {background-color: #6784ad;
+transition: all 100ms linear;}
+
 /* THE @MEDIA QUERIES - NOTHING NEW PAST THIS POINT FOR ELEMENTS. */
 
 @media screen and (max-width: 600px) {
